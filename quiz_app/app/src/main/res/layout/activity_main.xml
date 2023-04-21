@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#2c3e50">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+    <ImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/logo"
+        android:layout_centerInParent="true"
+        android:background="@drawable/radius_quiz"
+        android:padding="@dimen/_10sdp"
+
+        />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white_quiz"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textSize="@dimen/_40sdp"
+        />
+
+       <ProgressBar
+           android:theme="@style/ProgressBar"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="@dimen/_10sdp"
+           />
+
+    </LinearLayout>
+</RelativeLayout>

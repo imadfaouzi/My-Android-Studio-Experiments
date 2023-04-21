@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_250sdp"
+    android:layout_height="@dimen/_250sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:layout_gravity="center"
+    app:cardCornerRadius="@dimen/_10sdp"
+    app:cardBackgroundColor="@color/purple_quiz"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="326dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ops time out ..."
+            android:textSize="@dimen/_30sdp" />
+
+        <ImageView
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:src="@drawable/clock" />
+
+        <LinearLayout
+            android:id="@+id/btn_tryagain"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:background="@drawable/time_out_btn_shape"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Try Again !"
+                android:textColor="@color/white_quiz"
+                android:textSize="@dimen/_20sdp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
