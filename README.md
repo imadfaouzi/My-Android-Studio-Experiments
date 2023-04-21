@@ -7,3 +7,4 @@ Welcome to my repository containing all my Android Studio experiments! This repo
 Here are the Android projects included in this repository:
 
 -   Project 1: quiz_app
+-   Project 2: loginregisterFirebase
